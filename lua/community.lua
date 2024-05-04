@@ -57,12 +57,27 @@ return {
   -- indent
   { import = "astrocommunity.indent.indent-blankline-nvim" },
 
+  -- lsp
+  { import = "astrocommunity.lsp.actions-preview-nvim" },
+  { import = "astrocommunity.lsp.inc-rename-nvim" },
+  { import = "astrocommunity.lsp.lsp-lens-nvim" },
+  { import = "astrocommunity.lsp.lsp-signature-nvim" },
+  { import = "astrocommunity.lsp.nvim-lint" },
+
+  -- pack
+  { import = "astrocommunity.pack.docker" },
+  { import = "astrocommunity.pack.html-css" },
+  { import = "astrocommunity.pack.json" },
+  { import = "astrocommunity.pack.python-ruff" },
+  { import = "astrocommunity.pack.sql" },
+  { import = "astrocommunity.pack.vue" },
+
   -- recipes
   { import = "astrocommunity.recipes.neovide" },
   { import = "astrocommunity.recipes.vscode-icons" },
   { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
 
-  -- scroling
+  -- scrolling
   { import = "astrocommunity.scrolling.cinnamon-nvim" },
   { import = "astrocommunity.scrolling.mini-animate" },
 
@@ -81,4 +96,5 @@ return {
 
   -- utility
   { import = "astrocommunity.utility.mason-tool-installer-nvim" },
+  { import = "astrocommunity.utility.noice-nvim" },
 }
