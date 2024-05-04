@@ -75,7 +75,7 @@ return {
   -- recipes
   { import = "astrocommunity.recipes.neovide" },
   { import = "astrocommunity.recipes.vscode-icons" },
-  { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
+  -- { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
 
   -- scrolling
   { import = "astrocommunity.scrolling.cinnamon-nvim" },
