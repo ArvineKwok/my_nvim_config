@@ -72,6 +72,9 @@ return {
   { import = "astrocommunity.pack.sql" },
   { import = "astrocommunity.pack.vue" },
 
+  -- programming-language-support
+  { import = "astrocommunity.programming-language-support.csv-vim" },
+
   -- recipes
   { import = "astrocommunity.recipes.neovide" },
   { import = "astrocommunity.recipes.vscode-icons" },
