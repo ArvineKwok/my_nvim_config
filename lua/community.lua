@@ -73,7 +73,7 @@ return {
   { import = "astrocommunity.pack.vue" },
 
   -- programming-language-support
-  { import = "astrocommunity.programming-language-support.csv-vim" },
+  -- { import = "astrocommunity.programming-language-support.csv-vim" }, -- 有报错
 
   -- recipes
   { import = "astrocommunity.recipes.neovide" },
