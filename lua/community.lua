@@ -69,8 +69,8 @@ return {
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.python-ruff" },
-  { import = "astrocommunity.pack.sql" },
-  { import = "astrocommunity.pack.vue" },
+  -- { import = "astrocommunity.pack.sql" },
+  -- { import = "astrocommunity.pack.vue" },
 
   -- programming-language-support
   -- { import = "astrocommunity.programming-language-support.csv-vim" }, -- 有报错
